@@ -24,3 +24,9 @@ Your render function can optionally raise a `animation.StopAnimation` exception 
 Where `my_animation.py` is the file containing your render function, simply run `animate my_animation` to show a preview of the animation. The animation module can also be in a subpackage, called like `animate my_package.my_animation`, and the render function can be called something else, specified with a colon as in `animation my_package.my_animation:draw_frame`.
 
 Pass a filename with `--o` to save the animation as an mp4. Pass `--np` to hide the preview and encode the video in the background - rendering will stop and the script will exit when your render function raises a `StopAnimation` or any other exception.
+
+# Installation
+
+```
+pip install git+https://github.com/geajack/animation
+```
