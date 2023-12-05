@@ -4,7 +4,7 @@ This is a library and CLI tool for creating animations in Python and saving them
 
 ## API
 
-Create a Python file with a function in it called which accepts as an argument a PyGame Surface object and draw a single frame to that surface:
+Create a Python file with a function in it called which accepts as an argument a PyGame Surface object and draws a single frame to that surface:
 
 ```
 import pygame.draw
