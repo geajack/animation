@@ -10,7 +10,7 @@ Create a Python file with a function in it called which accepts as an argument a
 import pygame.draw
 
 def render(surface):
-    pygame.draw.rect(canvas, (255, 255, 255), (0, 0, 800, 800))
+    pygame.draw.rect(surface, (255, 255, 255), (0, 0, 800, 800))
     # see https://www.pygame.org/docs/ref/draw.html
     # and https://www.pygame.org/docs/ref/gfxdraw.html
     # for the full API
