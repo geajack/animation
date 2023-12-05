@@ -1,6 +1,6 @@
 # Animation
 
-This is a CLI tool for creating animations in Python and saving them as video files.
+This is a library and CLI tool for creating animations in Python and saving them as video files.
 
 ## API
 
